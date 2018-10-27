@@ -1,0 +1,48 @@
+.cover{
+    background-image:url(../RES/tailoringBanner.jpg);
+    height: 500px;
+}
+.cover h1 {
+    color : white ;
+    font-size: 300% ; 
+    border: 0px ; 
+    margin-left: 220px ;
+    padding: 300px ;
+}
+.box {
+    display: inline-block ; 
+    box-sizing: border-box ;
+    width: 49% ;
+    height: 350px ;
+    overflow: hidden ;
+    font-size: 100% ;
+    border: 20px ;
+    padding: 45px ; 
+}
+.bg1 {
+    background-color: rgb(161, 164, 168) ;
+}
+.bg2 {
+    background-color: rgb(120, 133, 133) ;
+}
+.color1 {
+    color: white ;
+}
+
+.color2 {
+    color: black ;
+}
+.box:hover {
+    outline: 5px solid rgb(29, 24, 24) ;
+    transition: all .5s ;
+    outline-offset: -5px ;
+}
+. titre {
+    font-size: 20pt ;
+    font-family: Times New Roman ;
+    margin: 0 0 20px 0 ;
+    font-weight: bold
+}
+.p {
+    text-align: justify
+}
